@@ -1,10 +1,9 @@
-const executor = require('./main')
+const publisher = require('./publisher')
 
 exports.handler = async (event) => {
-
   console.log("Received publish event")
 
-  let executeRes = await executor.execute()
+  let executeRes = await publisher.publish()
   console.log("Published successfully")
 
   let response = {

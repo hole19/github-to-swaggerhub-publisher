@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "zip": "zip -r github_to_swaggerhub_publisher.zip *.js node_modules/"
+    "zip": "zip -r github_to_swaggerhub_publisher.zip *.js lib/*.js node_modules/"
   },
   "keywords": [
     "github",
