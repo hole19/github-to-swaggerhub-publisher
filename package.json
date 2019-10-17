@@ -1,0 +1,20 @@
+{
+  "name": "github-to-swaggerhub-publisher",
+  "version": "0.0.1",
+  "description": "Publish an OpenAPI definition hosted in Github into SwaggerHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "zip": "zip -r github_to_swaggerhub_publisher.zip *.js lib/*.js node_modules/"
+  },
+  "keywords": [
+    "github",
+    "swaggerhub",
+    "openapi"
+  ],
+  "author": "André Andrade",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
